@@ -1,0 +1,107 @@
+*{
+  
+  padding: 0;
+  outline: 0;
+  text-align: center;
+}
+#form{
+  text-align: center;
+}
+#editInput{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+
+body {
+ background-image: url("/img/pexels1.jpg");
+ background-color:cornsilk;
+ color: black;
+}
+ul {
+  padding: 15px;
+}
+li {
+  list-style: none;
+  padding: 10px 5px;
+}
+
+#Recipe{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#recipeSteps{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+#addIngridient{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box; 
+
+}
+
+button{
+  width: 5rem;
+  color: black;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 4px 0;
+ 
+}
+
+button[type="submit"]{
+  width: 40%;
+  background-color: gray;
+  color: black;
+  padding: 10px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: large;
+}
+
+.container {
+justify-content: center;
+}
+
+.add-element {
+  margin: 12px 0;
+}
+
+button:hover {
+  background-color:honeydew;
+  pointer-events:fill;
+}
+ul {
+  padding: 15px;
+  font-family: monospace;
+  font-size: larger ;
+  /* background-color: burlywood; */
+}
+li {
+  list-style: none;
+  padding: 10px 5px;
+  font-family: monospace;
+  
+}
+form{
+    margin: 6rem;
+}
