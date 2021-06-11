@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>RECIPE APP</title>
+  </head>
+  <body>
+
+        <div class="container">
+       <h1>RECIPE BOX</h1>
+
+      <form autocomplete="off"> 
+        <input type="text" id="Recipe" placeholder="Type recipe name..." />
+        <textarea placeholder="Description" id="recipeSteps"></textarea>
+        <input type="text" id="addIngridient" placeholder="INGRIDIENT SEPARATED BY COMMAS"/>
+        <button id="submit" type="submit">SUBMIT</button>  
+      </form>
+    </div>
+   <form autocomplete="off" id="editForm">
+     <input  id="editInput" type="text" placeholder="ADD CHANGES HERE" >
+     <button id="submitInput" type="submit">SUBMIT</button>
+     
+   </form>
+    
+    
+  
+    <div class="element-list">
+      <ul id="List"></ul>
+    </div>
+    
+    
+    
+
+  </body>
+</html>
